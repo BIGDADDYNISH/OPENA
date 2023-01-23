@@ -3,7 +3,7 @@
  ChatGPT (coming soon)  
  Image (DALL·E)  
  Models  
- Completions  
+ [Compleations](https://github.com/betalgo/openai/wiki/Completion-Samples)  
  Edit  
  Mars  
  Embeddings  
