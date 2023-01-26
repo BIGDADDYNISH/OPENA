@@ -1,4 +1,4 @@
- Pages 
+##  Pages 
 
 * ChatGPT (coming soon)  
 * [Image DALL·E](https://github.com/betalgo/openai/wiki/Dall-E)  
@@ -11,5 +11,5 @@
 * Fine-tunes  
 * Moderation  
 
-Sample Projects
+## Sample Projects
 Please post your sample project in the [discussion](https://github.com/betalgo/openai/discussions) so I can add it here.
