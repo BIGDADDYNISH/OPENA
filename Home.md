@@ -1,7 +1,7 @@
  Pages 
 
 * ChatGPT (coming soon)  
-* Image (DALL·E)  
+* [Image DALL·E](https://github.com/betalgo/openai/wiki/Dall-E)  
 * Models  
 * [Compleations](https://github.com/betalgo/openai/wiki/Completion-Samples)  
 * Edit  
