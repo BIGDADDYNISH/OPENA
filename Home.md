@@ -4,6 +4,7 @@
 * [Image DALL·E](https://github.com/betalgo/openai/wiki/Dall-E)  
 * Models  
 * [Compleations](https://github.com/betalgo/openai/wiki/Completion-Samples)  
+* Compleations Stream
 * Edit  
 * Mars  
 * Embeddings  
