@@ -13,3 +13,11 @@
 
 ## Sample Projects
 Please post your sample project in the [discussion](https://github.com/betalgo/openai/discussions) so I can add it here.
+
+### TODO List 
+(Help needed for these, if you are willing to help, come to discussions)
+- [ ] Complete Wiki Page
+- [ ] .Net Standart Support
+- [ ] Api & organization Id validation method
+- [ ] Unit Tests
+- [ ] Integration Tests
