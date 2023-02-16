@@ -11,7 +11,7 @@ Work in progress
 * [Embeddings](Embeddings)  
 * [Files](Files)  
 * Fine-tunes  
-* Moderation  
+* [Moderation](Moderation)
 
 ## Sample Projects
 Please post your sample project in the [discussion](https://github.com/betalgo/openai/discussions) so I can add it here.
