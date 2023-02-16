@@ -4,7 +4,7 @@ Work in progress
 
 * ChatGPT (coming soon)  
 * [Image DALL·E](Dall-E)  
-* [Models] (Models)  
+* [Models](Models)  
 * [Completions](Completions)  
 * [Completions Stream](Completions-Stream)
 * [Edit](Edit)  
