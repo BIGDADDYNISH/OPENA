@@ -10,7 +10,7 @@ Work in progress
 * [Edit](Edit)  
 * [Embeddings](Embeddings)  
 * [Files](Files)  
-* Fine-tunes  
+* [Fine-tunes](Fine-Tuning)  
 * [Moderation](Moderation)
 
 ## Sample Projects
