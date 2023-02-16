@@ -6,7 +6,7 @@ Work in progress
 * [Image DALL·E](Dall-E)  
 * Models  
 * [Completions](Completions)  
-* [Completion Stream](Completions-Stream)
+* [Completions Stream](Completions-Stream)
 * [Edit](Edit)  
 * [Embeddings](Embeddings)  
 * Files  
