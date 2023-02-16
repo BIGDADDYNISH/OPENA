@@ -7,7 +7,7 @@ Work in progress
 * Models  
 * [Compleations](https://github.com/betalgo/openai/wiki/Completion-Samples)  
 * [Compleation Stream](https://github.com/betalgo/openai/wiki/Compleations-Stream-Sample)
-* Edit  
+* [Edit](https://github.com/betalgo/openai/wiki/Edit-Endpoint)  
 * Mars  
 * Embeddings  
 * Files  
