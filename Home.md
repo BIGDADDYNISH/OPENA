@@ -8,7 +8,6 @@ Work in progress
 * [Compleations](https://github.com/betalgo/openai/wiki/Completion-Samples)  
 * [Compleation Stream](https://github.com/betalgo/openai/wiki/Compleations-Stream-Sample)
 * [Edit](https://github.com/betalgo/openai/wiki/Edit-Endpoint)  
-* Mars  
 * Embeddings  
 * Files  
 * Fine-tunes  
