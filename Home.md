@@ -3,6 +3,7 @@ Work in progress
 ##  Pages 
 ### How to use Library
 * [Init](Init)
+* [Different ways of passing the models](Models-explained)
 ### OpenAI Endpoints
 * ChatGPT (coming soon)  
 * [Image DALL·E](Dall-E)  
