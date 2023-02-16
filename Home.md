@@ -3,12 +3,12 @@ Work in progress
 ##  Pages 
 
 * ChatGPT (coming soon)  
-* [Image DALL·E](https://github.com/betalgo/openai/wiki/Dall-E)  
+* [Image DALL·E](Dall-E)  
 * Models  
-* [Compleations](Completion-Samples)  
-* [Compleation Stream](https://github.com/betalgo/openai/wiki/Compleations-Stream-Sample)
-* [Edit](https://github.com/betalgo/openai/wiki/Edit-Endpoint)  
-* Embeddings  
+* [Completions](Completion)  
+* [Completion Stream](Completions-Stream)
+* [Edit](Edit)  
+* [Embeddings](Embeddings)  
 * Files  
 * Fine-tunes  
 * Moderation  
