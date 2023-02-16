@@ -9,7 +9,7 @@ Work in progress
 * [Completions Stream](Completions-Stream)
 * [Edit](Edit)  
 * [Embeddings](Embeddings)  
-* Files  
+* [Files](Files)  
 * Fine-tunes  
 * Moderation  
 
