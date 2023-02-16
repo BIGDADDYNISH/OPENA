@@ -1,7 +1,9 @@
 Work in progress
 
 ##  Pages 
-
+### How to use Library
+* [Init](Init)
+### OpenAI Endpoints
 * ChatGPT (coming soon)  
 * [Image DALL·E](Dall-E)  
 * [Models](Models)  
