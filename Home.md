@@ -5,7 +5,7 @@ Work in progress
 * ChatGPT (coming soon)  
 * [Image DALL·E](https://github.com/betalgo/openai/wiki/Dall-E)  
 * Models  
-* [Compleations](https://github.com/betalgo/openai/wiki/Completion-Samples)  
+* [Compleations](Completion-Samples)  
 * [Compleation Stream](https://github.com/betalgo/openai/wiki/Compleations-Stream-Sample)
 * [Edit](https://github.com/betalgo/openai/wiki/Edit-Endpoint)  
 * Embeddings  
