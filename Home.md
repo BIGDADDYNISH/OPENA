@@ -3,7 +3,7 @@
 * [Init](Init)
 * [Models Explained](Models-explained)
 ### OpenAI Endpoints
-* ChatGPT (coming soon)  
+* [Chat GPT](Chat-GPT)
 * [Image DALL·E](Dall-E)  
 * [Models](Models)  
 * [Completions](Completions)  
