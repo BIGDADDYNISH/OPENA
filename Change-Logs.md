@@ -1,3 +1,25 @@
+### 6.7.1
+* Introduced support for Whisper.
+* Grateful thanks to @shanepowell for contributing RetrieveFileContent.
+* Resolved an issue that was causing problems with the tokenizer. A clean build should hopefully address this.
+* Added support for skip options validation
+
+### 6.7.0
+* We all beeen waiting for this moment. Please enjoy Chat GPT API
+* Added support for Chat GPT API
+* Fixed Tokenizer Bug, it was not working properly.
+
+### 6.6.8
+* **Breaking Changes**
+    * Renamed `Engine` keyword to `Model` in accordance with OpenAI's new naming convention.
+    * Deprecated `DefaultEngineId` in favor of `DefaultModelId`.
+    * `DefaultEngineId` and `DefaultModelId` is not static anymore.
+
+* Added support for Azure OpenAI, a big thanks to @copypastedeveloper!
+* Added support for Tokenizer, inspired by @dluc's https://github.com/dluc/openai-tools repository. Please consider giving the repo a star.  
+
+These two changes are recent additions, so please let me know if you encounter any issues.
+* Updated documentation links from beta.openai.com to platform.openai.com.
 ### 6.6.5
 * Sad news, we have Breaking Changes.
     * `SetDefaultEngineId()` replaced by `SetDefaultModelId()`
