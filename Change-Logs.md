@@ -1,3 +1,13 @@
+## Changelog
+### 6.7.3
+* **Breaking change**: `ChatMessage.FromAssistance` is now `ChatMessage.FromAssistant`. Thanks to @Swimburger 
+* The Tokenizer method has been extended with `cleanUpCREOL`. You can use this option to clean up Windows-style line endings. Thanks to @gspentzas1991
+
+### 6.7.2
+* Removed Microsoft.AspNet.WebApi.Client dependency
+* The action build device has been updated to ubuntu due to suspicions that the EOL of the vocab.bpe file had been altered in the last few Windows builds.
+* Added support for TextEmbeddingAdaV2 Model.
+ 
 ### 6.7.1
 * Introduced support for Whisper.
 * Grateful thanks to @shanepowell for contributing RetrieveFileContent.
