@@ -13,6 +13,7 @@
 * [Files](Files)  
 * [Fine-tunes](Fine-Tuning)  
 * [Moderation](Moderation)
+* [Whisper](Whisper)
 
 ## Sample Projects
 Please post your sample project in the [discussion](https://github.com/betalgo/openai/discussions) so I can add it here.
