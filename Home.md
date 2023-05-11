@@ -4,6 +4,8 @@
 * [Models Explained](Models-explained)
 ### OpenAI Endpoints
 * [Chat GPT](Chat-GPT)
+* [Chat GPT-4](Chat-GPT)
+* [Azure OpenAI](Azure-OpenAI)
 * [Image DALL·E](Dall-E)  
 * [Models](Models)  
 * [Completions](Completions)  
@@ -14,6 +16,10 @@
 * [Fine-tunes](Fine-Tuning)  
 * [Moderation](Moderation)
 * [Whisper](Whisper)
+* [Tokenizer-GPT3](Tokenizer)
+* [Rate limit](Rate limit)
+* [Whisper](Whisper)
+* [Proxy](Proxy)
 
 ## Sample Projects
 Please post your sample project in the [discussion](https://github.com/betalgo/openai/discussions) so I can add it here.
