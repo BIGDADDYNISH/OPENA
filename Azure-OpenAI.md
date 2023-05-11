@@ -1,6 +1,6 @@
 Here is a sample configuration to use Azure OpenAI. Simply setting provider type to Azure will allow you to use library with Azure resources.
 
-Azure OpenAI currently has two API versions: 2022-12-01 and 2023-03-15-preview. The 2022-12-01 version does not support ChatGpt, so 2023-03-15-preview is the default version. I suggest setting the APIVersion even if you use the default version, because I will be updating it with the latest version in the future.
+Azure OpenAI currently has two API versions: 2022-12-01 and 2023-03-15-preview. The 2022-12-01 version does not support ChatGpt, so 2023-03-15-preview is the default version. I suggest setting the APIVersion even if you use the default version, because I will be updating it with the latest version in the future.   
 https://azure.microsoft.com/en-us/products/cognitive-services/openai-service
 
 ```
