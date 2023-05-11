@@ -18,7 +18,6 @@
 * [Whisper](Whisper)
 * [Tokenizer-GPT3](Tokenizer)
 * [Rate limit](Rate-limit)
-* [Whisper](Whisper)
 * [Proxy](Proxy)
 
 ## Sample Projects
