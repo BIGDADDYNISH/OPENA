@@ -23,7 +23,6 @@
 ## Sample Projects
 Please post your sample project in the [discussion](https://github.com/betalgo/openai/discussions) so I can add it here.
 
-[SAM - Smart Agent Manager](https://github.com/betalgo/openai/discussions/157#discussion-4956146) by @Mallock - [repo](https://github.com/Mallock/sam-smart-agent-manager)
 
 ## Change Logs
 [Change Logs](Change-Logs)
