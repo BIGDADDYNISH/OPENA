@@ -2,6 +2,7 @@
 ### Getting Started
 * [Init](Init)
 * [Models Explained](Models-explained)
+* [Working with Multiple Instances](Working-with-Multiple-Instances)
 ### OpenAI Endpoints
 * [Chat GPT](Chat-GPT)
 * [Chat GPT-4](Chat-GPT)
