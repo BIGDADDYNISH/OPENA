@@ -1,10 +1,53 @@
 ## Changelog
+### 7.0.0
+- The code now supports .NET 7.0. Big cheers to @BroMarduk for making this happen.
+- The library now automatically disposes of the Httpclient when it's created by the constructor. This feature is thanks to @BroMarduk.
+- New support has been added for using more than one instance at the same time. Check out this [link](https://github.com/betalgo/openai/wiki/Working-with-Multiple-Instances) for more details. Thanks to @remixtedi for bringing this to my attention.
+- A lot of small improvements have been done by @BroMarduk.
+- **Breaking Changes** 😢
+  - I've removed 'GPT3' from the namespace, so you might need to modify some aspects of your project. But don't worry, it's pretty simple! For instance, instead of writing `using OpenAI.GPT3.Interfaces`, you'll now write `using OpenAI.Interfaces`.
+  - The order of the OpenAI constructor parameters has changed. It now takes 'options' first, then 'httpclient'.
+    ```csharp
+	//Before
+	var openAiService = new OpenAIService(httpClient, options);
+	//Now
+	var openAiService = new OpenAIService(options, httpClient);
+	```
+### 6.8.6
+- Updated Azure OpenAI default API version to the preview version to support ChatGPT. thanks to all [issue reporters](https://github.com/betalgo/openai/issues/181)
+- Added support for an optional chat `name` field. thanks to @shanepowell
+- Breaking Change
+   - `FineTuneCreateRequest.PromptLossWeight` converto to float thanks to @JohnJ0808
+### 6.8.5
+- Mostly bug fixes
+- Fixed Moderation functions. https://github.com/betalgo/openai/issues/214 thanks to @scolmarg @AbdelAzizMohamedMousa @digitalvir
+- Added File Stream support for Whisper, Thanks to @Swimburger 
+- Fixed Whisper default response type, Thanks to @Swimburger 
+- Performance improvements and code clean up,again Thanks to @Swimburger 👏
+- Code clenaup, Thanks to @WeihanLi
+### 6.8.4
+- Released update message about nuget Package ID change
+### 6.8.3
+- **Breaking Changes**: 
+    - ~~I am going to update library namespace from `Betalgo.OpenAI.GPT3` to `OpenAI.GPT3`. This is the first time I am trying to update my nuget packageId. If something broken, please be patient. I will be fixing it soon.~~
+    Reverted namespace change, maybe next time.
+    - Small Typo change on model name `Model.GPT4` `to Model.GPT_4`
+
+    - `ServiceCollection.AddOpenAIService();` now returns `IHttpClientBuilder` which means it allows you to play with httpclient object. Thanks for all the reporters and @LGinC.
+    Here is a little sample
+```csharp
+ServiceCollection.AddOpenAIService()
+.ConfigurePrimaryHttpMessageHandler((s => new HttpClientHandler
+{
+    Proxy = new WebProxy("1.1.1.1:1010"),
+});
+``` 
 ### 6.8.1
-- **Breaking Change**: Typo fixed in Content Moderation CategoryScores, changing `Sexualminors` to `SexualMinors`. Thanks to @HowToDoThis.
+- **Breaking Changes**: Typo fixed in Content Moderation CategoryScores, changing `Sexualminors` to `SexualMinors`. Thanks to @HowToDoThis.
 - Tokenizer changes thanks to @IS4Code.
     - Performance improvement
     - Introduced a new method `TokenCount` that returns the number of tokens instead of a list.
-    - **Breaking Change**: Removed overridden methods that were basically string conversions. 
+    - **Breaking Changes**: Removed overridden methods that were basically string conversions. 
     I think these methods were not used much and it is fairly easy to do these conversions outside of the method. 
     If you disagree, let me know and I can consider adding them back.
 
