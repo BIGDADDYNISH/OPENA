@@ -48,11 +48,12 @@ Ensure your settings file has been configured appropriately. Here is an example 
       "ApiKey": "sk-***Q"
     },
     "MyAzureOpenAIService": {
-       "ApiKey": "3**a",
-       "DeploymentId": "myDeploymentId",
-       "ResourceName": "myResourceName",
-       "ProviderType": "Azure"
-    },
+      "ApiKey": "3**a",
+      "DeploymentId": "myDeploymentId",
+      "ResourceName": "myResourceName",
+      "ProviderType": "Azure"
+    }
+  }
 }
 ```
 Configuration Settings
