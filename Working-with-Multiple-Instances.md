@@ -16,8 +16,8 @@ public class MyAzureOpenAIService : OpenAIService
 {
     public const string SettingKey = "MyAzureOpenAIService";
     [ActivatorUtilitiesConstructor]
-    public MyOpenAIService(HttpClient httpClient, IOptionsSnapshot<OpenAiOptions> settings) : base(settings.Get(SettingKey),httpClient){}
-    public MyOpenAIService(OpenAiOptions settings, HttpClient? httpClient = null) : base(settings, httpClient){}
+    public MyAzureOpenAIService(HttpClient httpClient, IOptionsSnapshot<OpenAiOptions> settings) : base(settings.Get(SettingKey),httpClient){}
+    public MyAzureOpenAIService(OpenAiOptions settings, HttpClient? httpClient = null) : base(settings, httpClient){}
 }
 ```
 ### Dependency Injection
