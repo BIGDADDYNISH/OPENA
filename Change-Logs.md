@@ -1,4 +1,14 @@
 ## Changelog
+### 7.1.3
+- This release was a bit late and took longer than expected due to a couple of reasons. The future was quite big, and I couldn't cover all possibilities. However, I believe I have covered most of the function definitions (with some details missing). Additionally, I added an option to build it manually. If you don't know what I mean, you don't need to worry. I plan to cover the rest of the function definition in the next release. Until then, you can discover this by playing in the playground or in the source code. This version also support using other libraries to export your function definition.
+- We now have support for functions! Big cheers to @rzubek for completing most of this feature.
+- Additionally, we have made bug fixes and improvements. Thanks to @choshinyoung, @yt3trees, @WeihanLi, @N0ker, and all the bug reporters. (Apologies if I missed any names. Please let me know if I missed your name and you have a commit.) 
+### 7.1.2-beta
+- Bugfix https://github.com/betalgo/openai/pull/302
+- Added support for Function role https://github.com/betalgo/openai/issues/303
+### 7.1.0-beta
+- Function Calling: We're releasing this version to bring in a new feature that lets you call functions faster. But remember, this version might not be perfectly stable and we might change it a lot later. A big shout-out to @rzubek for helping us add this feature. Although I liked his work, I didn't have enough time to look into it thoroughly. Still, the tests I did showed it was working, so I decided to add his feature to our code. This lets everyone use it now. Even though I'm busy moving houses and didn't have much time, seeing @rzubek's help made things a lot easier for me.
+- Support for New Models: This update also includes support for new models that OpenAI recently launched. I've also changed the naming style to match OpenAI's. Model names will no longer start with 'chat'; instead, they'll start with 'gpt_3_5' and so on.
 ### 7.0.0
 - The code now supports .NET 7.0. Big cheers to @BroMarduk for making this happen.
 - The library now automatically disposes of the Httpclient when it's created by the constructor. This feature is thanks to @BroMarduk.
