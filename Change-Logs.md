@@ -1,4 +1,11 @@
 ## Changelog
+### 7.2.0
+- Added Chatgpt Finetununig support thanks to @aghimir3 
+- Default Azure Openai version increased thanks to @mac8005
+- Fixed Azure Openai Audio endpoint thanks to @mac8005
+### 7.1.5
+- Added error handling for PlatformNotSupportedException in PostAsStreamAsync when using HttpClient.Send, now falls back to SendRequestPreNet6 for compatibility on platforms like MAUI, Mac. Thanks to  @Almis90
+- We now have a function caller describe method that automatically generates function descriptions. This method is available in the utilities library. Thanks to @vbandi
 ### 7.1.3
 - This release was a bit late and took longer than expected due to a couple of reasons. The future was quite big, and I couldn't cover all possibilities. However, I believe I have covered most of the function definitions (with some details missing). Additionally, I added an option to build it manually. If you don't know what I mean, you don't need to worry. I plan to cover the rest of the function definition in the next release. Until then, you can discover this by playing in the playground or in the source code. This version also support using other libraries to export your function definition.
 - We now have support for functions! Big cheers to @rzubek for completing most of this feature.
