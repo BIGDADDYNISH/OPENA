@@ -1,3 +1,5 @@
+Sample fine-tuning file is available [here](https://github.com/betalgo/openai/blob/master/OpenAI.Playground/SampleData/FineTuningJobSample2.jsonl)
+
 ```csharp
 ConsoleExtensions.WriteLine("Run Case Study Is The Model Making Untrue Statements:", ConsoleColor.Cyan);
 
