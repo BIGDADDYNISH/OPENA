@@ -14,6 +14,7 @@
 * [Edit](Edit)  
 * [Embeddings](Embeddings)  
 * [Files](Files)  
+* [Chatgpt Fine-Tuning](Chatgpt-Fine-Tuning) 
 * [Fine-tunes](Fine-Tuning) 
 * [Function Calling](Function-Calling) 
 * [Moderation](Moderation)
