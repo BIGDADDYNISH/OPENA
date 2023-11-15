@@ -1,14 +1,16 @@
 ## Changelog
-### Version 7.4.0
+### 7.4.1
+- Added support for "Create Speech" thanks to @belaszalontai / @szabe74 
+### 7.4.0
 - Added support for Dall-e 3, thanks to @belaszalontai and @szabe74
 - Added support for GPT-4-Turbo/Vision thanks to @ChaseIngersol
 - Models are updated with the latest.
-### Version 7.3.1
+### 7.3.1
 - **Reverting a breking change which will be also Breaking Changes(only for 7.3.0):**
     - Reverting the usage of `EnsureStatusCode()` which caused the loss of error information. Initially, I thought it would help in implementing HTTP retry tools, but now I believe it is a bad idea for two reasons.
         1. You can't simply retry if the request wasn't successful because it could fail for various reasons. For example, you might have used too many tokens in your request, causing OpenAI to reject the response, or you might have tried to use a nonexistent model. It would be better to use the Error object in your retry rules. All responses are already derived from this base object.
         2. We will lose error response data.
-### Version 7.3.0
+### 7.3.0
 - Updated Moderation categories as reported by @dmki.
 - **Breaking Changes:**
     - Introduced the use of `EnsureStatusCode()` after making requests.Please adjust your code accordingly for handling failure cases. Thanks to @miroljub1995 for reporting.
